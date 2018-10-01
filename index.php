@@ -10,7 +10,7 @@ if($method == 'POST'){
 	$text = $json->queryResult->parameters->geo-city;
 
 	switch ($text) {
-		case 'hay':
+		case 'Hay':
 			$speech = "Hi, Nice to meet you";
 			break;
 
